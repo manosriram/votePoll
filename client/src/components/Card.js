@@ -181,18 +181,8 @@ class Card extends Component {
       return (
         <div id="com">
           <div id="com">
-            <img
-              id="steve1"
-              src="https://s.ebiografia.com/assets/img/authors/st/ev/steve-jobs-2-l.jpg"
-              className="steve"
-              onClick={this.handleClick}
-            />
-            <img
-              id="elon1"
-              src="https://upload.wikimedia.org/wikipedia/commons/4/49/Elon_Musk_2015.jpg"
-              className="elon"
-              onClick={this.handleClick}
-            />
+            <div id="steve1" onClick={this.handleClick} />
+            <div id="elon1" onClick={this.handleClick} />
           </div>
         </div>
       );
@@ -200,10 +190,8 @@ class Card extends Component {
     if (this.state.card === 2) {
       return (
         <div id="com">
-          <div id="com">
-            <div id="elon2" className="elon2" onClick={this.handleClick} />
-            <div id="bill1" className="bill1" onClick={this.handleClick} />
-          </div>
+          <div id="elon2" className="elon2" onClick={this.handleClick} />
+          <div id="bill1" className="bill1" onClick={this.handleClick} />
         </div>
       );
     }
@@ -211,10 +199,8 @@ class Card extends Component {
     if (this.state.card === 3) {
       return (
         <div id="com">
-          <div id="com">
-            <div id="mark1" className="mark1" onClick={this.handleClick} />
-            <div id="steve2" className="steve2" onClick={this.handleClick} />
-          </div>
+          <div id="mark1" className="mark1" onClick={this.handleClick} />
+          <div id="steve2" className="steve2" onClick={this.handleClick} />
         </div>
       );
     }
@@ -222,10 +208,8 @@ class Card extends Component {
     if (this.state.card === 4) {
       return (
         <div id="com">
-          <div id="com">
-            <div id="mark2" className="mark2" onClick={this.handleClick} />
-            <div id="bill2" className="bill2" onClick={this.handleClick} />
-          </div>
+          <div id="mark2" className="mark2" onClick={this.handleClick} />
+          <div id="bill2" className="bill2" onClick={this.handleClick} />
         </div>
       );
     }
@@ -233,10 +217,8 @@ class Card extends Component {
     if (this.state.card === 5) {
       return (
         <div id="com">
-          <div id="com">
-            <div id="sundar1" className="sundar1" onClick={this.handleClick} />
-            <div id="satya1" className="satya1" onClick={this.handleClick} />
-          </div>
+          <div id="sundar1" className="sundar1" onClick={this.handleClick} />
+          <div id="satya1" className="satya1" onClick={this.handleClick} />
         </div>
       );
     }
@@ -244,10 +226,8 @@ class Card extends Component {
     if (this.state.card === 6) {
       return (
         <div id="com">
-          <div id="com">
-            <div id="tim1" className="tim1" onClick={this.handleClick} />
-            <div id="sundar2" className="sundar2" onClick={this.handleClick} />
-          </div>
+          <div id="tim1" className="tim1" onClick={this.handleClick} />
+          <div id="sundar2" className="sundar2" onClick={this.handleClick} />
         </div>
       );
     }
@@ -255,10 +235,8 @@ class Card extends Component {
     if (this.state.card === 7) {
       return (
         <div id="com">
-          <div id="com">
-            <div id="tim2" className="tim2" onClick={this.handleClick} />
-            <div id="satya2" className="satya2" onClick={this.handleClick} />
-          </div>
+          <div id="tim2" className="tim2" onClick={this.handleClick} />
+          <div id="satya2" className="satya2" onClick={this.handleClick} />
         </div>
       );
     }
@@ -266,10 +244,8 @@ class Card extends Component {
     if (this.state.card === 8) {
       return (
         <div id="com">
-          <div id="com">
-            <div id="jeff1" className="jeff1" onClick={this.handleClick} />
-            <div id="larry1" className="larry1" onClick={this.handleClick} />
-          </div>
+          <div id="jeff1" className="jeff1" onClick={this.handleClick} />
+          <div id="larry1" className="larry1" onClick={this.handleClick} />
         </div>
       );
     }
@@ -277,10 +253,8 @@ class Card extends Component {
     if (this.state.card === 9) {
       return (
         <div id="com">
-          <div id="com">
-            <div id="larry2" className="larry2" onClick={this.handleClick} />
-            <div id="jack1" className="jack1" onClick={this.handleClick} />
-          </div>
+          <div id="larry2" className="larry2" onClick={this.handleClick} />
+          <div id="jack1" className="jack1" onClick={this.handleClick} />
         </div>
       );
     }
@@ -288,10 +262,8 @@ class Card extends Component {
     if (this.state.card === 10) {
       return (
         <div id="com">
-          <div id="com">
-            <div id="jeff2" className="jeff2" onClick={this.handleClick} />
-            <div id="jack2" className="jack2" onClick={this.handleClick} />
-          </div>
+          <div id="jeff2" className="jeff2" onClick={this.handleClick} />
+          <div id="jack2" className="jack2" onClick={this.handleClick} />
         </div>
       );
     }

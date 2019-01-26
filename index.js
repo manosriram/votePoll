@@ -9,9 +9,9 @@ app.use(bodyparser.urlencoded({ extended: false }));
 app.use(bodyparser.json());
 app.use(cookieparser());
 
-app.get("/", (req, res) => {
-  res.send("hey home!").status(200);
-});
+// app.get("/", (req, res) => {
+//   res.send("hey home!").status(200);
+// });
 
 app.use("/rate", rating);
 app.listen(port, () => {
