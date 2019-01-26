@@ -1,3 +1,9 @@
+img {
+  min-width: 20%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
 #steve1,
 #steve2 {
   margin-top: 200px;
@@ -6,7 +12,7 @@
   width: 350px;
   border: 1px solid white;
   float: left;
-  background-image: url("https://s.ebiografia.com/assets/img/authors/st/ev/steve-jobs-2-l.jpg");
+  /* background-image: url("https://s.ebiografia.com/assets/img/authors/st/ev/steve-jobs-2-l.jpg"); */
   background-size: 100% 100%;
   cursor: pointer;
 }
@@ -18,7 +24,7 @@
   width: 350px;
   border: 1px solid white;
   float: right;
-  background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/49/Elon_Musk_2015.jpg");
+  /* background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/49/Elon_Musk_2015.jpg"); */
   background-size: cover;
   cursor: pointer;
 }
@@ -123,8 +129,7 @@
   background-size: 100% 100%;
   cursor: pointer;
 }
-#jack1,
-#jack2 {
+#jack1 {
   margin-top: 200px;
   margin-left: 300px;
   height: 450px;
@@ -136,7 +141,20 @@
   cursor: pointer;
 }
 
+#jack2 {
+  margin-top: 200px;
+  margin-right: 300px;
+  border: 1px solid white;
+  height: 450px;
+  width: 350px;
+  float: right;
+  background-image: url("https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/01/18/104225995-_95A5004.1910x1000.jpg?v=1540458420");
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
 #nav {
+  width: 100%;
   color: whitesmoke;
   background-color: #800000;
   margin: auto;
@@ -150,4 +168,17 @@
   position: absolute;
   top: 50%;
   width: 100%;
+}
+
+#res {
+  text-align: center;
+}
+
+#win {
+  border: 3px solid black;
+  font-size: 100px;
+}
+
+#com {
+  border: 1px solid black;
 }
