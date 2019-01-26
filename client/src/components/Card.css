@@ -2,46 +2,138 @@
 #steve2 {
   margin-top: 200px;
   margin-left: 300px;
-  height: 300px;
+  height: 450px;
+  width: 350px;
   border: 1px solid white;
-  width: 200px;
   float: left;
   background-image: url("https://s.ebiografia.com/assets/img/authors/st/ev/steve-jobs-2-l.jpg");
   background-size: 100% 100%;
+  cursor: pointer;
 }
 #elon1,
 #elon2 {
   margin-top: 200px;
   margin-right: 300px;
-  height: 300px;
+  height: 450px;
+  width: 350px;
   border: 1px solid white;
-  width: 200px;
   float: right;
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/49/Elon_Musk_2015.jpg");
   background-size: cover;
+  cursor: pointer;
 }
 
 #bill1,
 #bill2 {
   margin-top: 200px;
-  margin-right: 300px;
-  height: 300px;
+  margin-left: 300px;
+  height: 450px;
+  width: 350px;
   border: 1px solid white;
-  width: 200px;
-  float: right;
+  float: left;
   background-image: url("https://collectionimages.npg.org.uk/large/mw82857/Bill-Gates.jpg");
   background-size: 100% 100%;
+  cursor: pointer;
 }
+
 #mark1,
 #mark2 {
   margin-top: 200px;
   margin-right: 300px;
-  height: 300px;
   border: 1px solid white;
-  width: 200px;
+  height: 450px;
+  width: 350px;
   float: right;
   background-image: url("https://the-hollywood-gossip-res.cloudinary.com/iu/s--33NNfBAs--/t_xlarge_p/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1532023485/mark-zuckerberg-speaks.png");
   background-size: 100% 100%;
+  cursor: pointer;
+}
+#sundar1,
+#sundar2 {
+  margin-top: 200px;
+  margin-right: 300px;
+  border: 1px solid white;
+  height: 450px;
+  width: 350px;
+  float: right;
+  background-image: url("https://img.etimg.com/thumb/msid-50318943,width-643,imgsize-337990,resizemode-4/four-things-even-google-doesnt-know-about-its-ceo-sundar-pichai.jpg");
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+#tim1,
+#tim2 {
+  margin-top: 200px;
+  margin-left: 300px;
+  height: 450px;
+  width: 350px;
+  border: 1px solid white;
+  float: left;
+  background-image: url("https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Tim_Cook_4.jpg");
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+#satya1 {
+  margin-top: 200px;
+  margin-left: 300px;
+  height: 450px;
+  width: 350px;
+  border: 1px solid white;
+  float: left;
+  background-image: url("https://amp.businessinsider.com/images/55ae61f22acae76e098b70fa-750-546.jpg");
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+#satya2 {
+  margin-top: 200px;
+  margin-right: 300px;
+  border: 1px solid white;
+  height: 450px;
+  width: 350px;
+  float: right;
+  background-image: url("https://amp.businessinsider.com/images/55ae61f22acae76e098b70fa-750-546.jpg");
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+#larry1,
+#larry2 {
+  margin-top: 200px;
+  margin-right: 300px;
+  border: 1px solid white;
+  height: 450px;
+  width: 350px;
+  float: right;
+  background-image: url("https://s.abcnews.com/images/Technology/gty_larry_page_google_tk_130514_wmain.jpg");
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+#jeff1,
+#jeff2 {
+  margin-top: 200px;
+  margin-left: 300px;
+  height: 450px;
+  width: 350px;
+  border: 1px solid white;
+  float: left;
+  background-image: url("https://financialexpresswpcontent.s3.amazonaws.com/uploads/2018/04/Jeff-Bezos-Re.jpg");
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+#jack1,
+#jack2 {
+  margin-top: 200px;
+  margin-left: 300px;
+  height: 450px;
+  width: 350px;
+  border: 1px solid white;
+  float: left;
+  background-image: url("https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/01/18/104225995-_95A5004.1910x1000.jpg?v=1540458420");
+  background-size: 100% 100%;
+  cursor: pointer;
 }
 
 #nav {
