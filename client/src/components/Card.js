@@ -179,91 +179,272 @@ class Card extends Component {
   render() {
     if (this.state.card === 1) {
       return (
-        <div id="com">
-          <div id="com">
-            <div id="steve1" onClick={this.handleClick} />
-            <div id="elon1" onClick={this.handleClick} />
+        <div id="comb">
+          <div className="imgContainer">
+            <img
+              alt="Image Not Found!"
+              src="https://s.ebiografia.com/assets/img/authors/st/ev/steve-jobs-2-l.jpg"
+              height="400"
+              width="300"
+              id="left"
+              onClick={this.handleClick}
+            />
+          </div>
+          <hr />
+          <div className="imgContainer1">
+            <img
+              src="https://s.yimg.com/ny/api/res/1.2/lseK7hX2FbGJM94BuezbHg--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en-US/homerun/businessinsider.com/9ea607142652ea3bbd2f0792b3f6b821"
+              className="middle-img"
+              height="400"
+              width="300"
+              id="right"
+              onClick={this.handleClick}
+            />
           </div>
         </div>
       );
+      // </div>
     }
     if (this.state.card === 2) {
       return (
-        <div id="com">
-          <div id="elon2" className="elon2" onClick={this.handleClick} />
-          <div id="bill1" className="bill1" onClick={this.handleClick} />
+        <div id="comb">
+          <div class="imgContainer">
+            <img
+              src="https://s.yimg.com/ny/api/res/1.2/lseK7hX2FbGJM94BuezbHg--~A/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9ODAw/http://media.zenfs.com/en-US/homerun/businessinsider.com/9ea607142652ea3bbd2f0792b3f6b821"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              id="elon2"
+            />
+          </div>
+          <hr />
+          <div class="imgContainer1">
+            <img
+              src="https://collectionimages.npg.org.uk/large/mw82857/Bill-Gates.jpg"
+              className="middle-img"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              id="bill1"
+            />
+          </div>
         </div>
       );
     }
 
     if (this.state.card === 3) {
       return (
-        <div id="com">
-          <div id="mark1" className="mark1" onClick={this.handleClick} />
-          <div id="steve2" className="steve2" onClick={this.handleClick} />
+        <div id="comb">
+          <div class="imgContainer">
+            <img
+              src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--33NNfBAs--/t_xlarge_p/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1532023485/mark-zuckerberg-speaks.png"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              id=""
+              alt="Image Not Found!"
+            />
+          </div>
+          <hr />
+          <div class="imgContainer1">
+            <img
+              src="https://s.ebiografia.com/assets/img/authors/st/ev/steve-jobs-2-l.jpg"
+              class="middle-img"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
         </div>
       );
     }
 
     if (this.state.card === 4) {
       return (
-        <div id="com">
-          <div id="mark2" className="mark2" onClick={this.handleClick} />
-          <div id="bill2" className="bill2" onClick={this.handleClick} />
+        <div id="comb">
+          <div class="imgContainer">
+            <img
+              src="https://the-hollywood-gossip-res.cloudinary.com/iu/s--33NNfBAs--/t_xlarge_p/cs_srgb,f_auto,fl_strip_profile.lossy,q_auto:420/v1532023485/mark-zuckerberg-speaks.png"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
+          <hr />
+          <div class="imgContainer1">
+            <img
+              src="https://collectionimages.npg.org.uk/large/mw82857/Bill-Gates.jpg"
+              class="middle-img"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
         </div>
       );
     }
 
     if (this.state.card === 5) {
       return (
-        <div id="com">
-          <div id="sundar1" className="sundar1" onClick={this.handleClick} />
-          <div id="satya1" className="satya1" onClick={this.handleClick} />
+        <div id="comb">
+          <div class="imgContainer">
+            <img
+              src="https://img.etimg.com/thumb/msid-50318943,width-643,imgsize-337990,resizemode-4/four-things-even-google-doesnt-know-about-its-ceo-sundar-pichai.jpg"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
+          <hr />
+          <div class="imgContainer1">
+            <img
+              src="https://amp.businessinsider.com/images/55ae61f22acae76e098b70fa-750-546.jpg"
+              class="middle-img"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
         </div>
       );
     }
 
     if (this.state.card === 6) {
       return (
-        <div id="com">
-          <div id="tim1" className="tim1" onClick={this.handleClick} />
-          <div id="sundar2" className="sundar2" onClick={this.handleClick} />
+        <div id="comb">
+          <div class="imgContainer">
+            <img
+              src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Tim_Cook_4.jpg"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
+          <hr />
+          <div class="imgContainer1">
+            <img
+              src="https://img.etimg.com/thumb/msid-50318943,width-643,imgsize-337990,resizemode-4/four-things-even-google-doesnt-know-about-its-ceo-sundar-pichai.jpg"
+              class="middle-img"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
         </div>
       );
     }
 
     if (this.state.card === 7) {
       return (
-        <div id="com">
-          <div id="tim2" className="tim2" onClick={this.handleClick} />
-          <div id="satya2" className="satya2" onClick={this.handleClick} />
+        <div id="comb">
+          <div class="imgContainer">
+            <img
+              src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Tim_Cook_4.jpg"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
+          <hr />
+          <div class="imgContainer1">
+            <img
+              src="https://amp.businessinsider.com/images/55ae61f22acae76e098b70fa-750-546.jpg"
+              class="middle-img"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
         </div>
       );
     }
 
     if (this.state.card === 8) {
       return (
-        <div id="com">
-          <div id="jeff1" className="jeff1" onClick={this.handleClick} />
-          <div id="larry1" className="larry1" onClick={this.handleClick} />
+        <div id="comb">
+          <div class="imgContainer">
+            <img
+              src="https://financialexpresswpcontent.s3.amazonaws.com/uploads/2018/04/Jeff-Bezos-Re.jpg"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
+          <hr />
+          <div class="imgContainer1">
+            <img
+              src="https://s.abcnews.com/images/Technology/gty_larry_page_google_tk_130514_wmain.jpg"
+              class="middle-img"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
         </div>
       );
     }
 
     if (this.state.card === 9) {
       return (
-        <div id="com">
-          <div id="larry2" className="larry2" onClick={this.handleClick} />
-          <div id="jack1" className="jack1" onClick={this.handleClick} />
+        <div id="comb">
+          <div class="imgContainer">
+            <img
+              src="https://financialexpresswpcontent.s3.amazonaws.com/uploads/2018/04/Jeff-Bezos-Re.jpg"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
+          <hr />
+          <div class="imgContainer1">
+            <img
+              src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/01/18/104225995-_95A5004.1910x1000.jpg?v=1540458420"
+              class="middle-img"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
         </div>
       );
     }
 
     if (this.state.card === 10) {
       return (
-        <div id="com">
-          <div id="jeff2" className="jeff2" onClick={this.handleClick} />
-          <div id="jack2" className="jack2" onClick={this.handleClick} />
+        <div id="comb">
+          <div class="imgContainer">
+            <img
+              src="https://financialexpresswpcontent.s3.amazonaws.com/uploads/2018/04/Jeff-Bezos-Re.jpg"
+              alt="Image Not Found!"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+            />
+          </div>
+          <hr />
+          <div class="imgContainer1">
+            <img
+              src="https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2017/01/18/104225995-_95A5004.1910x1000.jpg?v=1540458420"
+              class="middle-img"
+              height="400"
+              width="300"
+              onClick={this.handleClick}
+              alt="Image Not Found!"
+            />
+          </div>
         </div>
       );
     }
@@ -271,7 +452,23 @@ class Card extends Component {
     if (this.state.card > 10) {
       var getData = [];
       getData.push(this.getMax());
-      return <Result data={getData} />;
+      return (
+        <Result
+          data={getData}
+          scores={[
+            this.state.Ra,
+            this.state.Rb,
+            this.state.Rc,
+            this.state.Rd,
+            this.state.Re,
+            this.state.Rf,
+            this.state.Rg,
+            this.state.Rh,
+            this.state.Ri,
+            this.state.Rj
+          ]}
+        />
+      );
     }
   }
 }
